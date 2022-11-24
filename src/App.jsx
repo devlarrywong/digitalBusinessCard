@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Info from '../components/Info';
 
 function App() {
-
   return (
-    <div>
-      <h1>digital business card</h1>
+    <div className="Container">
+      <Info />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
