@@ -9,8 +9,16 @@ body {
 
 .Container {
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 4rem;
+  min-width: 300px;
+  min-height: 725px;
+}
+
+section {
+  width: 300px;
+  display: flex;
+  background-color: #1a1b21;
 }
