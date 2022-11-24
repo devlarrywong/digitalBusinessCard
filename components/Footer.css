@@ -1,0 +1,13 @@
+.Footer__Container {
+  height: 64px;
+  width: 300px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Footer__logo {
+  cursor: pointer;
+}
