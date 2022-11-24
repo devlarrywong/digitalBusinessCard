@@ -1,5 +1,7 @@
 import React from 'react';
 import profilePic from '../src/assets/Profile_pic.jpeg';
+import emailLogo from '../src/assets/email.png';
+import linkedinLogo from '../src/assets/linkedin.png';
 import './Info.css';
 
 function Info() {
@@ -13,11 +15,11 @@ function Info() {
       </div>
       <div className="Info__button-Container">
         <button className="Info__button Info__button-email">
-          <img src="../src/assets/email.png" />
+          <img src={emailLogo} />
           Email
         </button>
         <button className="Info__button Info__button-linkedin">
-          <img src="../src/assets/linkedin.png" />
+          <img src={linkedinLogo} />
           Linkedin
         </button>
       </div>
